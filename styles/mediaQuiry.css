@@ -1,0 +1,120 @@
+@media screen and (max-width: 430px) {
+
+    #aboutMe {
+            width: 100%;
+            margin: 0em 0em 0em;
+            padding: 0em;
+            background-color: gray;
+            border-radius: 0%;
+            box-shadow: 00px 00px 00px black;
+            color: white;
+        }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #centre-form {
+        align-items: center;
+        display: flex;
+        width: 90%;
+        padding-bottom: 3em;
+    }
+
+    #skills .flex {
+        flex-direction: row;
+    }
+
+    #aboutMe{
+        padding-bottom: 1em;
+    }
+
+    #skills h1, #projects h1, #aboutMe h1, #contact h1{
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+
+    #contact{
+        margin: 1em 4em 1em 1em;
+    }
+
+    .toTheTop{
+        display: none;
+    }
+
+    .logos{
+        width: 25%;
+        padding: 3%;
+    }
+
+    .mobileflex{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mobileflex a{
+        margin: 0em 1em 0em;
+    }
+
+    .project {
+        width: 85%;
+    }
+
+    .project h2{
+        margin-bottom: 0em;
+    }
+
+    .project p{
+        margin: 0;
+    }
+
+    .project hr {
+        display: block;
+        width: 75%;
+        /* border: solid black; */
+        background-color: black;
+        height: 3px;
+
+    }
+
+    nav ul{
+        padding: 0;
+        margin: 0;
+    }
+
+    #menue img {
+        display: block;
+        width: 2em;
+        border: solid white ;
+        padding: .5em;
+        border-radius: 20%;
+        filter: brightness(0) invert(1);
+    }
+
+    #menue_body{
+        display: none;
+    }
+
+    #header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #header #menue{
+        padding-left: 3em;
+    }
+
+    #submit {
+        border-radius: 5%;
+        border: solid 3px blue;
+        background-color: white;
+        width: 110%;
+        margin: 1em;
+        padding: 1em;
+
+    }
+}
