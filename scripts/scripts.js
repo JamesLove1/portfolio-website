@@ -16,20 +16,3 @@ function x (){
  }
 
 menue_button.addEventListener("click", x);
-
-
-
-
-// menue_button.style.cssText = "transform: rotate(90deg);    transition - duration: 3s;transform - origin: center; ";
-
-// let typed = new Typed("#auto-typing", {
-//     strings: [
-//         "James Love",
-//         "!!!",
-
-//     ],
-//     typeSpeed: 100,
-//     backSpeed: 60,
-//     loop: true,
-// });
-
